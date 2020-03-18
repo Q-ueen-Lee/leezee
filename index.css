@@ -116,10 +116,38 @@ hr{
     font-size: 20px;
 }
 
-.what-we-offer{
-background:#f6b60d;
-text-align: center;
+.what-we-offer-container{
+    background:#f6b60d;
 }
+.what-we-offer{
+    text-align: center;
+}
+hr{
+width: 4%;
+border: 2px solid white;
+}
+.images1 img{
+    width:80%
 
+}
+.images2 img{
+    width:80%;
+}
+.images3 img{
+    width:80%
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:44px 60px;
+}
+.paragraph-container{
+    text-align: center;
+}
+.images1 img{
+    background: #fff;
 
-
+}
+.images2 img{
+    background:#fff;
+}
